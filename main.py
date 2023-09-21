@@ -64,7 +64,6 @@ class DataScrapper:
 
     def run(self) -> None:
         for raw_data in self.raw_data:
-            pass
             data: DataDict = self._get_all(raw_data)
             self.data.append(data)
 
